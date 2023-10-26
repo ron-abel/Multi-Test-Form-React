@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Multi-Test-Form/static/css/main.1838d75a.css",
+    "main.js": "/Multi-Test-Form/static/js/main.8f3fd5a9.js",
+    "static/js/787.9639895c.chunk.js": "/Multi-Test-Form/static/js/787.9639895c.chunk.js",
+    "static/media/bg.jpeg": "/Multi-Test-Form/static/media/bg.1a9e5838b25579cd09ce.jpeg",
+    "index.html": "/Multi-Test-Form/index.html",
+    "main.1838d75a.css.map": "/Multi-Test-Form/static/css/main.1838d75a.css.map",
+    "main.8f3fd5a9.js.map": "/Multi-Test-Form/static/js/main.8f3fd5a9.js.map",
+    "787.9639895c.chunk.js.map": "/Multi-Test-Form/static/js/787.9639895c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1838d75a.css",
+    "static/js/main.8f3fd5a9.js"
+  ]
+}
