@@ -1,16 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import '../App.css';
-
+import React, { useEffect, useState } from 'react'; 
+import '../App.css'; 
+ 
 export default function PasswordScreen(props: any) {
     interface passwordFields {
-
-        password: string,
+        password: string, 
         repeatPassword: string,
-
-    };
+    }; 
     const [pass, setPass] = useState<passwordFields>({ password: "", repeatPassword: "" });
     const [enablePassword, setEnablePassword] = useState<boolean>(false);
-
     useEffect(() => {
         if (pass.password != '' && pass.repeatPassword != '') {
 
@@ -20,6 +17,7 @@ export default function PasswordScreen(props: any) {
             else {
                 setEnablePassword(false);
             }
+
         }
     }, [pass.password, pass.repeatPassword]);
 
