@@ -20,6 +20,7 @@ export default function PasswordScreen(props:any) {
             else{
                 setEnablePassword(false);
             }
+            
         }
     },[pass.password,pass.repeatPassword]);
 
